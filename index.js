@@ -6,9 +6,9 @@ function Store(path) {
   this.Store = JSON.parse(fs.readFileSync(path));
 }
 
-Store.prototype.get = function(key) {
+Store.prototype.get = function(key, default_value) {
   if (!key) return clone(this.Store);
-  return clone(this.Store[key]);
+  return clone(this.Store[key]) || default_value;
 }
 
 Store.prototype.set = function(key, value) {
