@@ -3,7 +3,7 @@ var fs = require('fs');
 function Store(path) {
   this.path = path;
   if (!fs.existsSync(path)) fs.writeFileSync(path, JSON.stringify({}));
-  this.Store = require(path);
+  this.Store = JSON.parse(fs.readFileSync(path));
 }
 
 Store.prototype.get = function(key) {
