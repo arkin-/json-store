@@ -1,6 +1,6 @@
 {
   "name": "json-store",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple json db for node",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/juliangruber/json-store.git"
+    "url": "git://github.com/arkin-/json-store.git"
   },
   "keywords": [
     "js",
     "db",
+    "json",
+    "persist",
     "blocking"
   ],
-  "author": "Julian Gruber <julian@juliangruber.com>",
+  "author": "Jak Wilkins <jak.wilkins@gmail.com>",
   "license": "MIT"
 }
