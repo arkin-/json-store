@@ -3,6 +3,13 @@ JSONStore
 
 Simple json store for node. Saves changes on disk immediately and blocking, so only relevant for cli applications and such.
 
+Installation
+------------
+
+```bash
+yarn add https://github.com/arkin-/json-store.git
+```
+
 Usage
 -----
 
